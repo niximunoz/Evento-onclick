@@ -1,0 +1,97 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 'Comic Neue', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+/* * {
+    border: 1px solid black;
+} */
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    height: 40px;
+    border: 2px solid black;
+    box-shadow: 3px 5px black;
+    font-family: 'Comic Neue', cursive;
+    cursor: pointer;
+}
+
+.btn-sesion {
+    background-color: cornflowerblue;
+    color: white;
+    width: 100px;
+    
+}
+.btn-likes{
+    background-color: yellow;
+    width: 100px;
+    margin-top: 10px;
+}
+.btn-definition{
+    background-color: rgb(15, 182, 15);
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: row;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    border: 3px solid black;
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.descripcion{
+    flex: 2;
+}
+.izquierda{
+    flex: 3;
+    margin-right: 20px;
+}
+.derecha{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 3px solid black;
+    height: 150px;
+    padding: 10px;
+}
+.titulos{
+    font-size: 40px;
+}
+.subtitulos{
+    font-size: 25px;
+    font-style: italic;
+}
+.extra{
+    font-style: italic;
+}
+
+.buscar{
+    width: 300px;
+    height: 20px;
+    border: 3px solid black;
+}
+a{
+    color: blue;
+}

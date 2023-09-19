@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Dojonary</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <h1>Dojonary</h1>
+        <input type="text" class="buscar" placeholder="Search">
+        <button class="btn btn-sesion" onclick="cambiarTexto(this)">Login</button>
+    </div>
+    <div class="container-principal">
+        <div class="izquierda">
+            <div class="cards">
+                <div class="nombre">
+                    <div class="titulos">ninja</div>
+                    <div class="subtitulos">noun</div>
+                    <div>Plural: <span class="extra">ninjas</span></div>
+                    <button class="btn btn-likes" onclick="buttonLike(this)"><span>13</span> likes</button>
+                </div>
+                <div class="descripcion">
+                    <p>A practitioner skilled in the <a href="">Japanese</a> art of <a href=""> ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="nombre">
+                    <div class="titulos">ninja</div>
+                    <div class="subtitulos">noun</div>
+                    <div>Plural: <span class="extra">ninjas</span></div>
+                    <button class="btn btn-likes" onclick="buttonLike(this)"><span>37</span> likes</button>
+                </div>
+                <div class="descripcion">
+                    <p>A <a href="">programmer</a> who breaks down problems with <a href="">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="derecha">
+            <h3>Dojonary is defined by YOU</h3>
+            <button class="btn btn-definition" onclick="removeDefinition(this)">Add Definition</button>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
