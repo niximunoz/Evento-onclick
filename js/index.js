@@ -3,7 +3,12 @@ function removeDefinition(elemento){
 }
 
 function cambiarTexto(elemento){
-    elemento.innerText = 'Logout';
+    if(elemento.innerText == 'Login'){
+        elemento.innerText = 'Logout';
+    }else{
+        elemento.innerText = 'Login';
+    }
+    
 }
 function buttonLike(elemento){
     alert('Ninja was liked');
